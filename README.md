@@ -1,103 +1,46 @@
-📊 Movilidad urbana y productividad económica en ciudades de LATAM
+# Urban Mobility & Productivity Analysis – Sprint 5
 
-📌 ¿De qué trata este proyecto?
+Este repositorio contiene el análisis realizado durante el Sprint 5, enfocado en la relación entre movilidad urbana y productividad económica en ciudades de LATAM.
 
-Este proyecto analiza la relación entre movilidad urbana (congestión vehicular) y productividad económica (PIB per cápita) en ciudades de América Latina durante 2024–2025.
+El análisis integra datos de congestión vehicular (Jams Delay / Traffic Index) y PIB per cápita para los años 2024–2025, con el objetivo de evaluar si mayores niveles de congestión están asociados con menores niveles de productividad económica.
 
-El objetivo es evaluar si existe una relación entre mayores niveles de congestión y menores niveles de productividad, bajo un enfoque tipo consultoría estratégica.
+# 📂 Contenido del repositorio
 
-📂 ¿Qué contiene este repositorio?
+## Analysis_Movilidad_urbana_y_productividad_economica_en_ciudades_de_LATAM.ipynb
+→ Notebook principal que incluye:
 
-📓 Notebook principal
+- Limpieza y estandarización de datos
+- Integración de datasets mediante INNER JOIN
+- Análisis exploratorio (EDA)
+- Visualizaciones (histograma, boxplot y gráfico de barras comparativo)
+- Conclusiones y recomendaciones estratégicas
 
-Analysis-Movilidad urbana y productividad económica en ciudades de LATAM.ipynb
+## README.md
+→ Documento descriptivo del proyecto.
 
-Incluye:
+# ▶ Cómo abrir el notebook en Google Colab
+Haz clic en el siguiente botón:
 
-Limpieza y estandarización de datos
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tatianarestrepoquiroz/analysis-movilidad-y-productividad-LATAM/blob/main/Analysis_Movilidad_urbana_y_productividad_economica_en_ciudades_de_LATAM.ipynb)
 
-Extracción y filtrado por año
+# 📘 Cómo reproducir el análisis
 
-Integración de datasets (movilidad + PIB)
+Abre Analysis_Movilidad_urbana_y_productividad_economica_en_ciudades_de_LATAM.ipynb
+Ejecuta todas las celdas en orden (Run All)
 
-Análisis exploratorio (EDA)
+El notebook incluye:
 
-Visualizaciones estratégicas
+- Carga de los datasets
+- Limpieza y transformación de datos
+- Integración de fuentes
+- Generación automática de visualizaciones
+- Conclusiones finales
 
-Conclusiones y recomendaciones
+No se requieren archivos adicionales externos.
 
-📈 Visualizaciones incluidas en el análisis
+# 🧠 Objetivo del análisis
 
-El notebook contiene los siguientes gráficos clave:
-
-1️⃣ Histograma
-
-Permite analizar la distribución del PIB per cápita y entender:
-
-Concentración de ciudades en determinados rangos
-
-Asimetría en los datos
-
-Posibles valores extremos
-
-2️⃣ Boxplot
-
-Utilizado para:
-
-Identificar valores atípicos (outliers)
-
-Analizar la dispersión de los datos
-
-Comparar la variabilidad entre ciudades
-
-Este gráfico es clave para detectar desigualdades estructurales entre ciudades.
-
-3️⃣ Gráfico de barras comparativo
-
-Permite comparar ciudades seleccionadas en términos de:
-
-Nivel de congestión
-
-PIB per cápita
-
-Este gráfico facilita identificar visualmente qué ciudades combinan:
-
-Alta congestión
-
-Productividad económica más baja
-
-Lo que apoya la priorización estratégica.
-
-📊 Hallazgos principales
-
-No se evidencia una correlación fuerte y lineal entre mayor PIB per cápita y mayor congestión.
-
-Existen ciudades con congestión alta y productividad media o baja.
-
-Bogotá y Lima presentan combinación de alta congestión y presión estructural sobre movilidad.
-
-Se identifican outliers que sugieren que la planificación urbana e inversión en transporte influyen más que el nivel económico por sí solo.
-
-🧪 Metodología
-
-Limpieza y transformación de datos con pandas
-
-Agregación por ciudad–año
-
-Integración mediante INNER JOIN
-
-Análisis exploratorio (EDA)
-
-Identificación de outliers
-
-Visualización con matplotlib y seaborn
-
-🚀 ¿Cómo reproducir el análisis?
-
-Abrir el notebook.
-
-Ejecutar todas las celdas en orden (Run All).
-
-El notebook ya incluye la carga de datasets.
-
-No se requieren archivos adicionales.
+- Evaluar la relación entre congestión vehicular y PIB per cápita
+- Identificar patrones y posibles correlaciones
+- Detectar ciudades con alta congestión y menor productividad
+- Generar recomendaciones estratégicas para priorización de inversión en infraestructura de movilidad
